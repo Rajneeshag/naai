@@ -1,0 +1,145 @@
+* {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 12pt;
+    margin: 0px;
+}
+
+header {
+    background-image: url(../images/slider1.png);
+    background-size:cover;
+    height: 400px;
+}
+section, footer {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.navbar-brand, .navbar-brand:hover {
+    font-size: smaller;
+    color: #ffffff;
+    letter-spacing: -1px;
+}
+.navbar button.navbar-toggler {
+    color:#ffffff;
+}
+.nav-link {
+    font-size: 20px;
+    font-weight: 300;
+}
+.nav-link, .nav-link:hover {
+    color: #ffffff;
+    letter-spacing: -1px;
+}
+.zomato {
+    text-align: center;
+    padding-top: 50px;
+}
+.zomato img {
+    width: 30%;
+}
+
+.zomatotitle {
+    color: #ffffff;
+    font-size: 30px;
+    padding-top: 10px;
+    letter-spacing: -1px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.search-box, form {
+    text-align: center;
+}
+
+.card {
+    border-radius: 30px;
+}
+.card .crop-image {
+    height: 150px;
+    overflow: hidden;
+}
+.card img {
+    border-radius: 30px;
+    width:100%;
+}
+.card-body  {
+    margin: 0px;
+}
+.card-title {
+    margin:0px;
+    font-weight: bold;
+}
+.card-text {
+    margin: 0px;
+}
+.box-hover {
+    cursor:pointer;
+    transition: all .3s ease-in-out;
+}
+.box-hover:hover{
+    transform: scale(1.02);
+}
+
+.row-heading {
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.col-text {
+    letter-spacing: -1px;
+}
+.flex-div {
+    display: flex;
+    background-size:cover;
+    border-radius: 10px;
+    box-shadow: inset;
+    height: 325px;
+    flex-direction:column; 
+    flex:1;
+}
+.flex-div-1{
+    background-image: url(../images/row-31.png);
+}
+.flex-div-2{
+    background-image: url(../images/row-32.png);
+}
+.flex-div-3{
+    background-image: url(../images/row-33.png);
+}
+.flex-div-4{
+    background-image: url(../images/row-34.png);
+}
+.flex-bottom-line-1 {
+    margin-top: auto;
+    color: #ffffff;
+    padding: 10px;
+    padding-left: 20px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size:16px;
+}
+
+.card-box {
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    box-shadow: 0px 0px 0px 0px #A9A9A9;
+    padding: 10px;
+    margin-bottom: 20px;
+    min-height:85px;
+}
+.card-box:hover {
+    cursor: pointer;
+    box-shadow: 0px 1px 2px 0px #A9A9A9;
+}
+
+.control-row {
+    padding: 10px;
+    text-align: left;
+}
+
+footer {
+    background-color: #F9F9F9;
+    padding: 40px;
+}
+.footer-box {
+    padding: 20px;
+}
